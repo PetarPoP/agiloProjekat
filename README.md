@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This was the project for my application for a summer internship. It consisted of creating a web shop application. Under the hood I used Next, Zustand, Tailwind, UploadThing and all of it is looking nice thanks to Shadcn's UI components, and it is all mobile frendly.
 
-## Getting Started
+The data is stored in postgres, I am using Neon.tech as a provider here. UploadThing was used for file uploads.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Running it is simple but I didn't include .env here:
+```
+  npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Front page](https://github.com/PetarPoP/agiloProjekat/assets/47577541/ec03d0c5-a1b3-4880-97d2-978035bd406f)
+Front page
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Product page](https://github.com/PetarPoP/agiloProjekat/assets/47577541/f0f4405f-37af-440b-9d74-fdf6b3b96da5)
+Product page
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Cart](https://github.com/PetarPoP/agiloProjekat/assets/47577541/566c4bc2-ad54-457b-97c5-3e1d6cb6a74d)
+Cart
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Admin page](https://github.com/PetarPoP/agiloProjekat/assets/47577541/0195955b-3b44-4776-9568-3933553ce6fb)
+Admin page
