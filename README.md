@@ -1,4 +1,6 @@
-This was the project for my application for a summer internship. It consisted of creating a web shop application. Under the hood I used Next, Zustand, Tailwind, UploadThing and all of it is looking nice thanks to Shadcn's UI components, and it is all mobile frendly.
+This was the project for my application for a summer internship. It consisted of creating a web shop application. Under the hood I used Next, Zustand, Tailwind, UploadThing and all of it is looking nice thanks to Shadcn's UI components, and it is all mobile frendly. It took me around two days to finish, with database taking up most of my time.
+
+As far as structure goes, I've colocated any single-use components and actions I've used next to their respective page.tsx-es since Next.js 13 allows that, otherwise everything else is under components. Shadcn's UI components are under components/ui and they serve as the most basic components I've used.
 
 The data is stored in postgres, I am using Neon.tech as a provider here. UploadThing was used for file uploads.
 
